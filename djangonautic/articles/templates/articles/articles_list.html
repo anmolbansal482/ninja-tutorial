@@ -1,0 +1,14 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+    <h1>List of articles.</h1>
+    <div class="articles">
+        {% csrf_token %}
+        {% for article in articles %}
+            <div class="article">
+                <h2 style='color:#000000;'>{{ article.title }}</h2>
+                <p>{{ article.snippet }}<a href="{% url 'articles:detail' slug=article.slug %}">[more]</a></p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
