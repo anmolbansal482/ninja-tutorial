@@ -11,7 +11,7 @@ Django==2.1.5
 future==0.16.0
 idna==2.6
 mathparse==0.1.1
-nltk==3.2.5
+nltk==3.4.5
 oauthlib==2.0.7
 Pillow==5.1.0
 product==0.1.1.1
