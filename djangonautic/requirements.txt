@@ -7,7 +7,7 @@ chatbotAI==0.1.2.4
 ChatterBot==0.8.5
 chatterbot-corpus==1.1.2
 decorate-url==1.1
-Django==2.1.5
+Django==2.2.13
 future==0.16.0
 idna==2.6
 mathparse==0.1.1
