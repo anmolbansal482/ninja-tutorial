@@ -1,6 +1,6 @@
 3to2==1.1.1
 appier==1.16.2
-certifi==2018.1.18
+certifi==2022.12.7
 chardet==3.0.4
 chatbot==1.5.2b0
 chatbotAI==0.1.2.4
